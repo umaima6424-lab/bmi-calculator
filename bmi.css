@@ -99,7 +99,7 @@ button{
     font-weight: bold;
     color:#d63384;
 }
-@media(max-width:450px){
+@media(max-width:768px){
     .container{
         width:95%;
         max-width:400px;
