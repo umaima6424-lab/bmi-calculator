@@ -21,7 +21,8 @@ body{
     font-weight: 14px;
 }
 .container{
-    width: 380px;
+    width: 90%;
+    max-width:400px;
     background: rgba(255, 255,255,0.95);
     padding: 30px;
     border-radius: 25px;
