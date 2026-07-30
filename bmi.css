@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #e7e3e3;
+}
+.no{
+    font-family:"poppins",sans-serif;
+    color:#ff4d94;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+.yo{
+    font-family: "dancing script";
+    color:#666;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 14px;
+}
+.container{
+    width: 380px;
+    background: rgba(255, 255,255,0.95);
+    padding: 30px;
+    border-radius: 25px;
+    animation:glow  1s infinite;
+    box-shadow: 0 20px 40px rgba(0,0,0,.20);
+    text-align: center;
+    margin-left: 430px;
+    margin-top:30px;
+}
+@keyframes glow {
+    from{
+        box-shadow: 0 0 5px #d63384,
+                    0 0 15px #d63384,
+                    0 0 20px #d63384;
+    }
+    to{
+        box-shadow: 0 0 10px #ff4d94,
+                    0 0 20px #ff4d94,
+                    0 0 30px #ff93be;
+    }
+}
+.input-box{
+    text-align: left;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color:#666;
+    font-size: 19px;
+
+}
+input{
+    width:100%;
+    padding:5px;
+    border-radius:12px;
+    border:2px solid #ffd1e8;
+    outline: none;
+    font-size: 18px;
+    transition:.3s;
+}
+input:focus{
+    border-color:#ff4d94;
+    box-shadow: 0 0 10px rgba(255,77,148,.30);
+}
+button{
+    width: 100%;
+    padding:15px;
+    font-size: 18px;
+    border-radius:10px;
+    background: linear-gradient(90deg,#ff4d94,#ff93be,#e20fa3);
+    cursor:pointer;
+}
+.result-card{
+    margin-top: 30px;
+    padding:20px;
+    border-radius: 15px;
+    background:#fadeeb;
+}
+#result{
+    color:#ff4d94;
+    margin-bottom: 10px;
+}
+#category{
+    font-size:20px;
+    font-weight: bold;
+    color:#d63384;
+}
+@media(max-width:450px){
+    .container{
+        width:100%;
+    }
+}
