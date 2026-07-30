@@ -6,6 +6,10 @@
 }
 body{
     background-color: #e7e3e3;
+    overflow-x:hidden;
+    width:100%;
+    padding:0;
+    margin:0;
 }
 .no{
     font-family:"poppins",sans-serif;
